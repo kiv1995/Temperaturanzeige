@@ -44,5 +44,4 @@ public class MainActivity extends AppCompatActivity {
         WebSettings viewSettings = view.getSettings();
         viewSettings.setDomStorageEnabled(true);
     }
-
 }
