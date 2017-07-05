@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         loadWebView("fenster_zu.php");
     }
     public void loadWebView(String phpdoc){
-        WebView web1 = (WebView) findViewById(R.id.webview);
+        WebView web1 = (WebView) findViewById(R.id.webView);
         web1.loadUrl("http://" + getDomain() + "/" + getFolderString() + "/" + phpdoc);
     }
     public String getFolderString(){

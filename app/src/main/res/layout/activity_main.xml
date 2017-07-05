@@ -16,11 +16,10 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btn_auf"
+                android:id="@+id/button2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -28,30 +27,34 @@
                 android:text="Fenster auf" />
 
             <Button
-                android:id="@+id/btn_zu"
+                android:id="@+id/button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="fensterZu"
                 android:text="Fenster zu" />
-
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="435dp"
+            android:layout_height="250dp"
             android:orientation="horizontal">
 
             <WebView
                 android:id="@+id/view_temp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
 
             <WebView
-                android:id="@+id/webview"
+                android:id="@+id/webView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
         </LinearLayout>
-
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
