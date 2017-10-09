@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         WebView webViewTemp = (WebView) findViewById(R.id.view_temp);
         settings(webViewTemp);
-        webViewTemp.loadUrl("http://kiv1995.ddns.net");
+        webViewTemp.loadUrl("http://kiv19952.ddns.net");
     }
 
     public void fensterAuf(View v){
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public String getDomain(){
-        return "kiv1995.ddns.net";
+        return "kiv19952.ddns.net";
     }
     public void settings(WebView view){
         view.getSettings().setLoadWithOverviewMode(true);
